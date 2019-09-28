@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileViewFragment1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/get_your_style_score"
+            android:id="@+id/head"
+            android:textColor="#8400ff"
+            android:textSize="18sp"
+            android:textAlignment="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/we_provide_you_average_score_of_your_styles"
+            android:id="@+id/subhead"
+            android:textColor="#8C8984"
+            android:layout_marginTop="5dp"
+            android:textSize="15sp"
+            android:textAlignment="center"/>
+    </LinearLayout>
+
+</FrameLayout>
